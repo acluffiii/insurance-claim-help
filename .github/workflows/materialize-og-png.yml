@@ -1,0 +1,30 @@
+# The GitHub file-push connector only accepts text, so the branded OG image is
+# stored as og/share.png.b64 and materialized here into og/share.png.
+name: Materialize OG PNG
+on:
+  push:
+    paths:
+      - "og/share.png.b64"
+      - ".github/workflows/materialize-og-png.yml"
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode PNG
+        run: |
+          mkdir -p og
+          base64 -d og/share.png.b64 > og/share.png
+      - name: Commit if the PNG changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add og/share.png
+          if git diff --cached --quiet; then
+            echo "og/share.png already up to date"
+          else
+            git commit -m "Materialize og/share.png from base64"
+            git push
+          fi
