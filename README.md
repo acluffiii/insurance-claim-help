@@ -1,2 +1,11 @@
-# insurance-claim-help
-Plain-English insurance claim guides, starting with hail damage for auto and home in Texas.
+# Insurance Claim Help
+
+Plain-English guides for auto and home insurance claims, starting with hail damage in Texas.
+
+Live site: https://acluffiii.github.io/insurance-claim-help/
+
+This repository holds only the public site files. Research notes, the topic queue, and the changelog stay off this repo.
+
+The site is educational only. It is not legal advice or insurance advice.
+
+Related: [After the Hail](https://acluffiii.github.io/after-the-hail/) (a hail-repair and PDR guide) and [DentDOG PDR](https://sunovabit.org).
