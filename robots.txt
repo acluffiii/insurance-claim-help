@@ -1,11 +1,5 @@
 # Insurance Claim Help robots.txt
-#
-# Limitation: GitHub Pages project sites serve robots.txt from the user
-# site root (https://acluffiii.github.io/robots.txt), not from this
-# project subpath. Crawlers that only fetch the user-root file will not
-# honor this copy. The sitemap URL below is still the one to submit in
-# Google Search Console.
 User-agent: *
 Allow: /
 
-Sitemap: https://acluffiii.github.io/insurance-claim-help/sitemap.xml
+Sitemap: https://claims.sunovabit.org/sitemap.xml
