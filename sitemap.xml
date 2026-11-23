@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://claims.sunovabit.org/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/guides/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/about/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/guides/hail/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/guides/general/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/guides/hail/is-hail-covered-by-comprehensive/</loc>
@@ -31,6 +31,10 @@
   <url>
     <loc>https://claims.sunovabit.org/guides/hail/should-i-file-hail-claim-close-to-deductible/</loc>
     <lastmod>2026-11-21</lastmod>
+  </url>
+  <url>
+    <loc>https://claims.sunovabit.org/guides/hail/storm-chasers-and-deductible-waivers/</loc>
+    <lastmod>2026-11-22</lastmod>
   </url>
   <url>
     <loc>https://claims.sunovabit.org/guides/hail/why-roof-hail-claims-get-denied/</loc>
